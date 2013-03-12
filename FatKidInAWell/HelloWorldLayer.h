@@ -1,34 +1,26 @@
 //
 //  HelloWorldLayer.h
-//  FatKidInAWell
+//  TinySeal
 //
-//  Created by Patrick Shay on 3/7/13.
-//  Copyright __MyCompanyName__ 2013. All rights reserved.
+//  Created by Ray Wenderlich on 6/15/11.
+//  Copyright Ray Wenderlich 2011. All rights reserved.
 //
-
-
 #import <GameKit/GameKit.h>
-
-// When you import this file, you import all the cocos2d classes
 #import "cocos2d.h"
 #import "Box2D.h"
+#import "Terrain.h"
 #import "GLES-Render.h"
 
-//Pixel to metres ratio. Box2D uses metres as the unit for measurement.
-//This ratio defines how many pixels correspond to 1 Box2D "metre"
-//Box2D is optimized for objects of 1x1 metre therefore it makes sense
-//to define the ratio so that your most common object type is 1x1 metre.
 #define PTM_RATIO 32
 
-// HelloWorldLayer
-@interface HelloWorldLayer : CCLayer <GKAchievementViewControllerDelegate, GKLeaderboardViewControllerDelegate>
+@interface HelloWorldLayer : CCLayer
 {
-	CCTexture2D *spriteTexture_;	// weak ref
-	b2World* world;					// strong ref
-	GLESDebugDraw *m_debugDraw;		// strong ref
+	CCSprite * _background;
+    Terrain * _terrain;
+    Terrain * _terrainR;
+    b2World * _world;
 }
 
-// returns a CCScene that contains the HelloWorldLayer as the only child
 +(CCScene *) scene;
 
 @end

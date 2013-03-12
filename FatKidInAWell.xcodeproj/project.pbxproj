@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2B085616EE60C400AA8533 /* MainMenuScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B085516EE60C400AA8533 /* MainMenuScene.mm */; };
+		3A2B087F16EEDCDC00AA8533 /* SettingsMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2B087E16EEDCDC00AA8533 /* SettingsMenuScene.m */; };
 		3A5E75F816E97FFC00B0CE34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5E75F716E97FFC00B0CE34 /* QuartzCore.framework */; };
 		3A5E75FA16E97FFC00B0CE34 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5E75F916E97FFC00B0CE34 /* OpenGLES.framework */; };
 		3A5E75FC16E97FFC00B0CE34 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5E75FB16E97FFC00B0CE34 /* OpenAL.framework */; };
@@ -175,15 +177,20 @@
 		3A5E780916E97FFE00B0CE34 /* b2WheelJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E780816E97FFE00B0CE34 /* b2WheelJoint.cpp */; };
 		3A5E780D16E97FFE00B0CE34 /* b2Rope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E780C16E97FFE00B0CE34 /* b2Rope.cpp */; };
 		3A5E781316E97FFE00B0CE34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E781216E97FFE00B0CE34 /* main.m */; };
-		3A5E781616E97FFE00B0CE34 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E781516E97FFE00B0CE34 /* AppDelegate.mm */; };
-		3A5E781916E97FFE00B0CE34 /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E781816E97FFE00B0CE34 /* HelloWorldLayer.mm */; };
-		3A5E781C16E97FFE00B0CE34 /* IntroLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E781B16E97FFE00B0CE34 /* IntroLayer.mm */; };
-		3A5E781F16E97FFE00B0CE34 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E781E16E97FFE00B0CE34 /* GLES-Render.mm */; };
-		3A5E782216E97FFE00B0CE34 /* PhysicsSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E782116E97FFE00B0CE34 /* PhysicsSprite.mm */; };
 		3A5E782416E97FFE00B0CE34 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A5E782316E97FFE00B0CE34 /* blocks.png */; };
+		3A5E783816E980C600B0CE34 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E782E16E980C600B0CE34 /* RootViewController.mm */; };
+		3A5E783916E980C600B0CE34 /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E783016E980C600B0CE34 /* HelloWorldLayer.mm */; };
+		3A5E783B16E980C600B0CE34 /* Noise.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A5E783416E980C600B0CE34 /* Noise.png */; };
+		3A5E783C16E980C600B0CE34 /* Terrain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E783616E980C600B0CE34 /* Terrain.mm */; };
+		3A5E783F16E982D400B0CE34 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E783E16E982D400B0CE34 /* AppDelegate.mm */; };
+		3A5E784216E9837B00B0CE34 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E784116E9837B00B0CE34 /* GLES-Render.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A2B085416EE60C400AA8533 /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		3A2B085516EE60C400AA8533 /* MainMenuScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainMenuScene.mm; sourceTree = "<group>"; };
+		3A2B087D16EEDCDC00AA8533 /* SettingsMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsMenuScene.h; sourceTree = "<group>"; };
+		3A2B087E16EEDCDC00AA8533 /* SettingsMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsMenuScene.m; sourceTree = "<group>"; };
 		3A5E75F416E97FFC00B0CE34 /* FatKidInAWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FatKidInAWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5E75F716E97FFC00B0CE34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3A5E75F916E97FFC00B0CE34 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -534,17 +541,19 @@
 		3A5E780F16E97FFE00B0CE34 /* LICENSE_Box2D.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE_Box2D.txt; path = libs/LICENSE_Box2D.txt; sourceTree = "<group>"; };
 		3A5E781116E97FFE00B0CE34 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		3A5E781216E97FFE00B0CE34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A5E781416E97FFE00B0CE34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3A5E781516E97FFE00B0CE34 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		3A5E781716E97FFE00B0CE34 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		3A5E781816E97FFE00B0CE34 /* HelloWorldLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
-		3A5E781A16E97FFE00B0CE34 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		3A5E781B16E97FFE00B0CE34 /* IntroLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = IntroLayer.mm; sourceTree = "<group>"; };
-		3A5E781D16E97FFE00B0CE34 /* GLES-Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
-		3A5E781E16E97FFE00B0CE34 /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
-		3A5E782016E97FFE00B0CE34 /* PhysicsSprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsSprite.h; sourceTree = "<group>"; };
-		3A5E782116E97FFE00B0CE34 /* PhysicsSprite.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PhysicsSprite.mm; sourceTree = "<group>"; };
 		3A5E782316E97FFE00B0CE34 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		3A5E782D16E980C600B0CE34 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3A5E782E16E980C600B0CE34 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = "<group>"; };
+		3A5E782F16E980C600B0CE34 /* HelloWorldLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
+		3A5E783016E980C600B0CE34 /* HelloWorldLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
+		3A5E783316E980C600B0CE34 /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		3A5E783416E980C600B0CE34 /* Noise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Noise.png; sourceTree = "<group>"; };
+		3A5E783516E980C600B0CE34 /* Terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terrain.h; sourceTree = "<group>"; };
+		3A5E783616E980C600B0CE34 /* Terrain.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Terrain.mm; sourceTree = "<group>"; };
+		3A5E783D16E982D400B0CE34 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A5E783E16E982D400B0CE34 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		3A5E784016E9837B00B0CE34 /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
+		3A5E784116E9837B00B0CE34 /* GLES-Render.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -603,16 +612,22 @@
 		3A5E760916E97FFC00B0CE34 /* FatKidInAWell */ = {
 			isa = PBXGroup;
 			children = (
-				3A5E781416E97FFE00B0CE34 /* AppDelegate.h */,
-				3A5E781516E97FFE00B0CE34 /* AppDelegate.mm */,
-				3A5E781716E97FFE00B0CE34 /* HelloWorldLayer.h */,
-				3A5E781816E97FFE00B0CE34 /* HelloWorldLayer.mm */,
-				3A5E781A16E97FFE00B0CE34 /* IntroLayer.h */,
-				3A5E781B16E97FFE00B0CE34 /* IntroLayer.mm */,
-				3A5E781D16E97FFE00B0CE34 /* GLES-Render.h */,
-				3A5E781E16E97FFE00B0CE34 /* GLES-Render.mm */,
-				3A5E782016E97FFE00B0CE34 /* PhysicsSprite.h */,
-				3A5E782116E97FFE00B0CE34 /* PhysicsSprite.mm */,
+				3A5E783D16E982D400B0CE34 /* AppDelegate.h */,
+				3A5E783E16E982D400B0CE34 /* AppDelegate.mm */,
+				3A5E782D16E980C600B0CE34 /* RootViewController.h */,
+				3A5E782E16E980C600B0CE34 /* RootViewController.mm */,
+				3A5E782F16E980C600B0CE34 /* HelloWorldLayer.h */,
+				3A5E783016E980C600B0CE34 /* HelloWorldLayer.mm */,
+				3A5E784016E9837B00B0CE34 /* GLES-Render.h */,
+				3A5E784116E9837B00B0CE34 /* GLES-Render.mm */,
+				3A5E783316E980C600B0CE34 /* GameConfig.h */,
+				3A5E783416E980C600B0CE34 /* Noise.png */,
+				3A5E783516E980C600B0CE34 /* Terrain.h */,
+				3A5E783616E980C600B0CE34 /* Terrain.mm */,
+				3A2B085416EE60C400AA8533 /* MainMenuScene.h */,
+				3A2B085516EE60C400AA8533 /* MainMenuScene.mm */,
+				3A2B087D16EEDCDC00AA8533 /* SettingsMenuScene.h */,
+				3A2B087E16EEDCDC00AA8533 /* SettingsMenuScene.m */,
 				3A5E760A16E97FFC00B0CE34 /* Resources */,
 				3A5E762416E97FFC00B0CE34 /* libs */,
 				3A5E781016E97FFE00B0CE34 /* Supporting Files */,
@@ -1206,6 +1221,7 @@
 				3A5E762316E97FFC00B0CE34 /* iTunesArtwork in Resources */,
 				3A5E776116E97FFE00B0CE34 /* ChangeLog in Resources */,
 				3A5E782416E97FFE00B0CE34 /* blocks.png in Resources */,
+				3A5E783B16E980C600B0CE34 /* Noise.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1362,11 +1378,13 @@
 				3A5E780916E97FFE00B0CE34 /* b2WheelJoint.cpp in Sources */,
 				3A5E780D16E97FFE00B0CE34 /* b2Rope.cpp in Sources */,
 				3A5E781316E97FFE00B0CE34 /* main.m in Sources */,
-				3A5E781616E97FFE00B0CE34 /* AppDelegate.mm in Sources */,
-				3A5E781916E97FFE00B0CE34 /* HelloWorldLayer.mm in Sources */,
-				3A5E781C16E97FFE00B0CE34 /* IntroLayer.mm in Sources */,
-				3A5E781F16E97FFE00B0CE34 /* GLES-Render.mm in Sources */,
-				3A5E782216E97FFE00B0CE34 /* PhysicsSprite.mm in Sources */,
+				3A5E783816E980C600B0CE34 /* RootViewController.mm in Sources */,
+				3A5E783916E980C600B0CE34 /* HelloWorldLayer.mm in Sources */,
+				3A5E783C16E980C600B0CE34 /* Terrain.mm in Sources */,
+				3A5E783F16E982D400B0CE34 /* AppDelegate.mm in Sources */,
+				3A5E784216E9837B00B0CE34 /* GLES-Render.mm in Sources */,
+				3A2B085616EE60C400AA8533 /* MainMenuScene.mm in Sources */,
+				3A2B087F16EEDCDC00AA8533 /* SettingsMenuScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1472,6 +1490,7 @@
 				3A5E782916E97FFE00B0CE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

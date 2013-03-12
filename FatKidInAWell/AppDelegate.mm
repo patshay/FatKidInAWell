@@ -7,9 +7,11 @@
 //
 
 #import "cocos2d.h"
-
+#import "CCBReader/CCBReader.h"
 #import "AppDelegate.h"
-#import "IntroLayer.h"
+//#import "IntroLayer.h"
+#import "HelloWorldLayer.h"
+#import "MainMenuScene.h"
 
 @implementation AppController
 
@@ -76,9 +78,14 @@
 	[CCTexture2D PVRImagesHavePremultipliedAlpha:YES];
 	
 	// and add the scene to the stack. The director will run it when it automatically when the view is displayed.
-	[director_ pushScene: [IntroLayer scene]]; 
-	
-	
+	//[director_ pushScene: [IntroLayer scene]];
+    //******Scene to run first**************
+	//[director_ pushScene: [HelloWorldLayer scene]];
+	// Load the main menu scene from the ccbi-file
+    CCScene* mainScene = [CCBReader sceneWithNodeGraphFromFile:@"MainMenuScene.ccbi"];
+    // Then add the scene to the stack. The director will run it when it automatically when the view is displayed.
+    [director_ pushScene: mainScene];
+    
 	// Create a Navigation Controller with the Director
 	navController_ = [[UINavigationController alloc] initWithRootViewController:director_];
 	navController_.navigationBarHidden = YES;
@@ -93,10 +100,10 @@
 	return YES;
 }
 
-// Supported orientations: Landscape. Customize it for your own needs
+// Supported orientations: Portrait. Customize it for your own needs
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return UIInterfaceOrientationIsLandscape(interfaceOrientation);
+	return UIInterfaceOrientationIsPortrait(interfaceOrientation);
 }
 
 

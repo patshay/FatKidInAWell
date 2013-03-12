@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>backarrow.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{415, 1}, {67, 53}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {67, 53}}</string>
+			<key>sourceSize</key>
+			<string>{67, 53}</string>
+		</dict>
+		<key>fkm.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{207, 1}, {142, 127}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {142, 127}}</string>
+			<key>sourceSize</key>
+			<string>{142, 127}</string>
+		</dict>
+		<key>logo.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 133}, {243, 97}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {243, 97}}</string>
+			<key>sourceSize</key>
+			<string>{243, 97}</string>
+		</dict>
+		<key>settingicon.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{350, 1}, {64, 61}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {64, 61}}</string>
+			<key>sourceSize</key>
+			<string>{64, 61}</string>
+		</dict>
+		<key>wellfront.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {205, 131}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {205, 131}}</string>
+			<key>sourceSize</key>
+			<string>{205, 131}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{512, 256}</string>
+	</dict>
+</dict>
+</plist>
